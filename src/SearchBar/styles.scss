@@ -1,0 +1,16 @@
+.SearchBar {
+  margin-left: 15px;
+  padding: 8px;
+  font-size: 12px;
+  border-width: 1px;
+  border-color: #cccccc;
+  background-color: #ffffff;
+  color: #000000;
+  min-width: 200px;
+  border-style: solid;
+  border-radius: 5px;
+
+  &:focus {
+    outline: none;
+  }
+}
